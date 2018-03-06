@@ -1,0 +1,122 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #fff !important;
+  direction: rtl;
+}
+
+.container.header {
+  background: #f3f3f3;
+}
+
+.body-drip {
+  border-top: 8px solid #663399;
+}
+
+// Full Width Headers
+.header {
+  background: #6ab086;
+}
+
+.header .columns {
+  padding-bottom: 0;
+}
+
+.header p {
+  color: #fff;
+  padding-top: 15px;
+}
+
+.header .wrapper-inner {
+  padding: 20px;
+}
+
+.header .container {
+  background: transparent;
+}
+
+// Social Media
+table.button.facebook table td {
+  background: #3B5998 !important;
+  border-color: #3B5998;
+}
+
+table.button.twitter table td {
+  background: #1daced !important;
+  border-color: #1daced;
+}
+
+table.button.google table td {
+  background: #DB4A39 !important;
+  border-color: #DB4A39;
+}
+
+.wrapper.secondary {
+  background: #f3f3f3;
+}
+
+body {
+  background: #fff;
+}
+
+body, table.body, h1, h2, h3, h4, h5, h6, p, td, th, a {
+  text-align: right;
+  color: #000;
+}
+
+table.menu {
+  float: right;
+
+  td,
+  th {
+    &.menu-item {
+      padding: 0;
+      padding-right: 0;
+
+      a {
+        display: block;
+        width: 104px;
+        direction: ltr;
+      }
+    }
+  }
+}
+
+.footer {
+  tr {
+    vertical-align: bottom;
+  }
+
+  th {
+
+    &.columns {
+      padding-bottom: 0;
+    }
+
+    img {
+      float: left;
+    }
+  }
+
+  &-green {
+    background-color: #6ab086;
+    background: #6ab086;
+
+    th {
+      background-color: #6ab086;
+      background: #6ab086;
+      padding-bottom: 5px;
+    }
+  }
+}
+
+.btn-mail {
+  background: #de7921;
+  color: #fff;
+  font-size: 15px;
+  padding: 5px 15px;
+}
